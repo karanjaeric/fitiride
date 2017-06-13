@@ -1,0 +1,113 @@
+/*--------------------------------------
+========= CUSTOM SEARCH-BAR START ======
+--------------------------------------*/
+.fr-search{
+width: 100%;
+margin-top: 10px;
+
+}
+.inputLabel {
+     font-size: 14px
+ }
+ 
+.fr-search input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+ #Search .searchRow {
+     margin-bottom: 10px
+ }
+ #Search .searchRow .searchRight {
+     float: left;
+     padding-left: 40px
+ }
+ #Search .searchRow .NoPaddingRight {
+     padding-left: 0
+ }
+ #Search .searchRow .inputLabel {
+     inline: block;
+     font-weight: 600;
+     font-size: 13px;
+     margin-bottom: 5px
+ }
+ #Search .searchRow .errorMessageFixed {
+     display: block;
+     font-size: 11px;
+     color: red;
+     height: 16px;
+     margin-top: 2px
+ }
+ #Search .calendar,
+ #Search .switchButton,
+ .busTypeClose,
+ .selectBusType,
+ .servicelist {
+     background-image: url(https://st.redbus.in/images/ImagesOpt/home_sprite3.png);
+     background-repeat: no-repeat
+ }
+ #Search .calendar {
+     background-position: 98% -39px;
+     cursor: pointer
+ }
+ #Search .buttonContainer {
+     padding-top: 20px
+ }
+ #Search .switchButton {
+     margin: 21px 5px 0;
+     float: left;
+     cursor: pointer;
+     background-position: -27px 7px;
+     width: 30px;
+     height: 30px
+ }
+ #Search .dateError {
+     text-align: center;
+     color: red;
+     visibility: hidden;
+     font-size: 11px
+ }
+/*--------------------------------------
+========= CUSTOM SEARCH-BAR END ======
+--------------------------------------*/
+
+
+
+
+/*--------------------------------------
+========= RESPONSIVE START ======
+*/ 
+@media screen and (max-width: 860px) {
+ 
+ /*search*/ 
+ .fr-search{
+width: 100%;
+padding-top: 50px
+  
+}
+
+/*---------------*/
+
+ /*search*/
+ footer {
+  padding: 50px;
+
+}
+
+ footer .newsletter{
+	padding-left: 50px;
+	padding-right: 50px;
+ }
+/*---------------*/
+
+}
+
+/*
+========= RESPONSIVE END ======
+--------------------------------------*/
+
